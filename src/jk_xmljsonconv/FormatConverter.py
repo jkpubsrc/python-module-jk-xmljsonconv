@@ -35,11 +35,19 @@ from .FormatConverterXmlFile2XmlStr import FormatConverterXmlFile2XmlStr
 #
 class FormatConverter(object):
 
-	def __init__(self, tempDirPath):
-		assert isinstance(tempDirPath, str)
+	#
+	# Constructor method.
+	#
+	# @param		object tempDir			Either provide a directory path here for temporary files or a <c>TempDir</c> object.
+	#
+	def __init__(self, tempDir):
+		assert isinstance(tempDir, (str, jk_temporary.TempDir))
 
-		self.__tempDir = jk_temporary.TempDir(tempDirPath)
-		self.__tempDir.clear()
+		if isinstance(tempDir, str):
+			self.__tempDir = jk_temporary.TempDir(tempDir)
+			self.__tempDir.clear()
+		else:
+			self.__tempDir = tempDir
 
 		self.__allBasicConverters = [	# the instances
 				FormatConverterXml2XmlFile(),

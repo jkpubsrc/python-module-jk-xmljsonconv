@@ -106,6 +106,15 @@ The next lines declare the methods the `FormatConverter` class will provide:
 
 ```python
 #
+# Constructor method.
+#
+# @param		object tempDir			Either provide a directory path here for temporary files or a <c>TempDir</c> object.
+#
+def __init__(self, tempDir)
+```
+
+```python
+#
 # Get a list of formats supported.
 #
 # @return		string[]		Returns a list of IDs.
