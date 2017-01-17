@@ -90,7 +90,7 @@ F.e. if you provide an XML string this could look like this:
 ```python
 SOME_XML_INPUT = "<?xml version=\"1.0\"?><html><body><h1>Some heading</h1><div><p>Some text.</p></div></body></html>"
 
-resultData = str(c.convert1("jsonstr", SOME_XML_INPUT))
+resultData = str(c.convert1("xmlstr->jsonstr", SOME_XML_INPUT))
 ```
 
 With `resultData` containing the following string after conversion:
