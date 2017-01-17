@@ -7,13 +7,13 @@ def readme():
 
 
 setup(name='jk_xmljsonconv',
-	version='0.2017.1.15',
+	version='0.2017.1.17',
 	description='A python module to convert XML to JSON and the other way around through a conversion manager.',
 	author='Jürgen Knauth',
 	author_email='pubsrc@binary-overflow.de',
 	license='Apache 2.0',
 	url='https://github.com/jkpubsrc/python-module-jk-xmljsonconv',
-	download_url='https://github.com/jkpubsrc/python-module-jk-xmljsonconv/tarball/0.2017.1.15',
+	download_url='https://github.com/jkpubsrc/python-module-jk-xmljsonconv/tarball/0.2017.1.17',
 	keywords=['format-conversion', 'xml', 'json'],
 	packages=['jk_xmljsonconv'],
 	install_requires=[
