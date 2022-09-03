@@ -8,8 +8,8 @@ This python module provides possibilities to convert XML to JSON vice versa thro
 
 Information about this module can be found here:
 
-* [github.org](https://github.com/jkpubsrc/python-module-jk-xmljsonconv)
-* [pypi.python.org](https://pypi.python.org/pypi/jk_xmljsonconv)
+* [github.com](https://github.com/jkpubsrc/python-module-jk-xmljsonconv)
+* [pypi.org](https://pypi.org/project/jk_xmljsonconv/)
 
 How to use this module
 ----------------------
